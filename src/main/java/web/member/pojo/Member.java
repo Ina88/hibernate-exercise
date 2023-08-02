@@ -26,7 +26,7 @@ public class Member extends Core {
 	@Column(name = "CREATED_DATE")
 	private Timestamp createdDate;
 	private String updater;
-	@Column(name = "LAST_UPDATE_DATE")
+	@Column(name = "LAST_UPDATED_DATE")
 	private Timestamp lastUpdatedDate;
 
 	public Member() {
